@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>**This package is a fork from the original NancyFx.org to enable netstandard2.0 compatibility**
+Enables hosting Nancy in any application.</Description>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <Authors>dougcunha</Authors>
+    <Company>dougcunha</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/dougcunha/Nancy</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dougcunha/Nancy</RepositoryUrl>
+    <PackageTags>nancy hosting</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Nancy.Hosting.Self.Standard</PackageId>
+    <PackageIconUrl>https://raw.githubusercontent.com/dougcunha/Nancy/master/src/Nancy/favicon.ico</PackageIconUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Nancy" Version="2.0.0" />
+    <PackageReference Include="System.Security.Principal.Windows">
+      <Version>4.5.1</Version>
+    </PackageReference>
+  </ItemGroup>
+</Project>
